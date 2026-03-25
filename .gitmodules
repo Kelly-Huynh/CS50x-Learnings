@@ -1,0 +1,6 @@
+[submodule "CS50H/libcs50"]
+	path = CS50H/libcs50
+	url = https://github.com/cs50/libcs50
+[submodule "git_clone/libcs50"]
+	path = git_clone/libcs50
+	url = https://github.com/cs50/libcs50
