@@ -4,7 +4,7 @@
 
 int main(void)
 {
-  FILE *file = fopen("phonebook.csv", "w");
+  FILE *file = fopen("phonebook.csv", "a");
 
   char *name = get_string("Name: ");
   char *number = get_string("Number: ");
