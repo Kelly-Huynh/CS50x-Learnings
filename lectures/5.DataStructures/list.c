@@ -1,3 +1,4 @@
+#include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -19,9 +20,17 @@ int main(void)
       return 1;
     }
     n->number = get_int("Number: ");
-    n->next = NULL;
-
     n->next = list;
+
     list = n;
+  }
+
+  // Time passes
+
+  node *ptr = list;
+  while (ptr != NULL)
+  {
+    printf("%i\n", ptr->number);
+    ptr = ptr->next;
   }
 }
